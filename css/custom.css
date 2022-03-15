@@ -1,0 +1,252 @@
+.mod {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contai {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.po {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.x {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qw {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
+
+
+
+.modOne {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contaiOne {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.poOne {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.xOne {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qwOne {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
+
+
+
+.modTwo {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contaiTwo {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.poTwo {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.xTwo {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qwTwo {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
+
+
+
+.modThree {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contaiThree {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.poThree {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.xThree {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qwThree {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
+
+.modFour {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contaiFour {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.poFour {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.xFour {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qwFour {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
+
+
+.modFive {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.479);
+	padding-top: 10px;
+	top: 0;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.contaiFive {
+	width: 60%;
+	height: auto;
+	background-color: white;
+	margin: 10% auto;
+	box-shadow: 2px 2px 20px;
+}
+
+.poFive {
+	text-align: center;
+	font-size: 1.8em;
+	padding-top: 70px;
+}
+
+.xFive {
+	float: right;
+	font-size: 2.3em;
+	font-family: cursive;
+	padding: 20px 20px 20px 20px;
+	cursor: pointer;
+
+}
+
+.qwFive {
+	font-size: 1.3em;
+	text-align: center;
+	padding: 0 10% 10px 10%;
+}
