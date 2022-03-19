@@ -4,7 +4,7 @@
 <!-- Basic Page Needs
   ================================================== -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Adore Church - Responsive HTML5 Template</title>
+<title>David's Dominion Christian centre</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
@@ -25,6 +25,7 @@
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">
+<link href="./images/logo only.png" rel="icon" >
 <!-- SCRIPTS
   ================================================== -->
 <script src="js/modernizr.js"></script><!-- Modernizr -->
@@ -58,20 +59,21 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="sermons-series.html">Sermon</a></li> 
                             <li><a href="events.html">Events</a>    
-                            <li><a href="about.html">About Us</a></li>
-                                  
+                            <li><a href="about.html">About Us</a></li>      
                             </ul>
                     </nav>       
                     <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
                 </div>
-            </nav>       
-            <a href="#" class="visible-sm visible-xs" id="menu-toggle"><i class="fa fa-bars"></i></a>
-    	</div>
+            
 	</header>
 	<!-- End Site Header -->
     <!-- Start Page Header -->
-    <div class="page-header parallax clearfix">
-    	<div id="contact-map"></div>
+    <div class="page-header parallax clearfix" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(./images/contact.jpg); background-size: cover; ">
+			<div class="title-subtitle-holder">
+    	<div class="title-subtitle-holder-inner">
+				<h2>Contact Us</h2>
+				</div>
+			</div>
     </div>
     <!-- End Page Header -->
     <!-- Breadcrumbs -->
@@ -92,11 +94,11 @@
                     	<h2>Our Location</h2>
                     	<hr class="sm">
                     	<h4 class="short accent-color">Ontario, Canada</h4>
-                    	<p>2881, Windwood Dr 48<br>Mississauga Ontario L5N 2K9<br><a href="davidsdominionchristiancenter@gmail.com">davidsdominionchristiancenter@gmail.com</a><br></p>
+                    	<p>2881, Windwood Dr 48<br>Mississauga Ontario L5N 2K9<br><a href="ddchristiancentre@gmail.com">ddchristiancentre@gmail.com</a><br></p>
                        
                    	</div>
                     <div class="col-md-8 col-sm-7">
-                       	<form method="post" data-netlify="true" id="contactform" name="contactform" class="contact-form clearfix">
+                       	<form data-netlify="true" id="contactform" name="contactform" class="contact-form clearfix">
                         	<div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
@@ -162,13 +164,15 @@
                         <h4>News subscription</h4>
                         <hr class="sm">
                         <p>Subscribe to our newsletter in order to receive the latest new &amp; articles. We promise we won't spam your inbox!</p>
-                        <div class="input-group">
-                            <span class="input-group-addon">@</span>
-                            <input type="text" class="form-control">
-                            <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Go!</button>
-                            </span>
-                        </div>
+                        <form data-netlify="true">
+													<div class="input-group">
+															<span class="input-group-addon">@</span>
+															<input type="text" class="form-control" required>
+															<span class="input-group-btn">
+															<input type="submit" value="Go!" class="btn btn-primary" >
+															</span>
+													</div>
+												</form>
             		</div>
                	</div>
         		<!-- Quick Info -->
@@ -184,7 +188,7 @@
 										</div>
 										<div class="col-md-3 col-sm-6">
 												<h4><i class="fa fa-envelope"></i> Contact Info</h4>
-												<p>+1 (647) 781-4151<br>davidsdominionchristiancenter@gmail.com</p>
+												<p>+1 (647) 781-4151<br>ddchristiancentre@gmail.com</p>
 										</div>
 										<div class="col-md-3 col-sm-6">
 												<h4><i class="fa fa-clock-o"></i> Socialize with us</h4>
@@ -228,77 +232,5 @@
 <script src="vendor/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer -->
 <script src="vendor/mediaelement/mediaelement-and-player.min.js"></script> <!-- MediaElements --> 
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-var geocoder = new google.maps.Geocoder();
-var address = "2500 CityWest Blvd. - Suite 300 Houston, Texas - 77042 USA"; //Add your address here, all on one line.
-var latitude;
-var longitude;
-var color = "#3bafda"; //Set your tint color. Needs to be a hex value.
-
-function getGeocode() {
-	geocoder.geocode( { 'address': address}, function(results, status) {
-		if (status == google.maps.GeocoderStatus.OK) {
-    		latitude = results[0].geometry.location.lat();
-			longitude = results[0].geometry.location.lng(); 
-			initGoogleMap();   
-    	} 
-	});
-}
-
-function initGoogleMap() {
-	var styles = [
-	    {
-	      stylers: [
-	        { saturation: -100 }
-	      ]
-	    }
-	];
-	
-	var options = {
-		mapTypeControlOptions: {
-			mapTypeIds: ['Styled']
-		},
-		center: new google.maps.LatLng(latitude, longitude),
-		zoom: 13,
-		scrollwheel: false,
-		navigationControl: false,
-		mapTypeControl: false,
-		zoomControl: true,
-		disableDefaultUI: true,	
-		mapTypeId: 'Styled'
-	};
-	var div = document.getElementById('contact-map');
-	var map = new google.maps.Map(div, options);
-	marker = new google.maps.Marker({
-	    map:map,
-	    draggable:false,
-	    animation: google.maps.Animation.DROP,
-	    position: new google.maps.LatLng(latitude,longitude)
-	});
-	var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
-	map.mapTypes.set('Styled', styledMapType);
-	
-	var infowindow = new google.maps.InfoWindow({
-	      content: "<div class='iwContent'>"+address+"</div>"
-	});
-	google.maps.event.addListener(marker, 'click', function() {
-	    infowindow.open(map,marker);
-	  });
-	
-	
-	bounds = new google.maps.LatLngBounds(
-	  new google.maps.LatLng(-84.999999, -179.999999), 
-	  new google.maps.LatLng(84.999999, 179.999999));
-
-	rect = new google.maps.Rectangle({
-	    bounds: bounds,
-	    fillColor: color,
-	    fillOpacity: 0.2,
-	    strokeWeight: 0,
-	    map: map
-	});
-}
-google.maps.event.addDomListener(window, 'load', getGeocode);
-</script>
 </body>
 </html>
