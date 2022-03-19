@@ -4,7 +4,7 @@
 <!-- Basic Page Needs
   ================================================== -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Adore Church - Responsive HTML5 Template</title>
+<title>David's Dominion Christian centre</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
@@ -56,7 +56,7 @@
 	</header>
 	<!-- End Site Header -->
     <!-- Start Page Header -->
-    <div class="page-header parallax clearfix" style="background-image:url(http://placehold.it/1200x300&amp;text=IMAGE+PLACEHOLDER);">
+    <div class="page-header parallax clearfix" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.212)), url(./images/event.jpg); background-size: cover; min-height: 10px;width: 100%;">
         <div class="title-subtitle-holder">
         	<div class="title-subtitle-holder-inner">
     			<h2>Events</h2>
@@ -80,9 +80,9 @@
             	<div class="row">
                     <div class="col-md-3 col-sm-3 events-list-sidebar">
                     	<div class="event-page-cal">
-                        	<span class="month">MAR</span>
+                        	<span class="month"></span>
                             <span class="year">2022</span>
-                            <a href="javascript:void(0)" class="actions left"><i class="fa fa-angle-left"></i></a>
+                            <a class="actions left"><i class="fa fa-angle-left"></i></a>
                             <a href="javascript:void(0)" class="actions right"><i class="fa fa-angle-right"></i></a>
                         </div>
                         <h5>Select Location</h5>
@@ -122,7 +122,7 @@
                                         </div>
                                     </div>
                                     <div class="event-list-item-actions">
-                                    	<a href="contact.html" class="btn btn-default btn-transparent event-tickets event-register-button">Register</a>
+                                    	<a data-toggle="modal" data-target="#Econtact" class="btn btn-default btn-transparent event-contact-link event-register-button">Register</a>
                                     	<ul class="action-buttons">
                                         	<li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
                                         	<li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
@@ -150,7 +150,7 @@
                                         </div>
                                     </div>
                                     <div class="event-list-item-actions">
-                                    	<a href="#" class="btn btn-default btn-transparent event-tickets event-register-button">Register</a>
+                                    	<a href="#" data-toggle="modal" data-target="#Econtact" class="btn btn-default btn-transparent event-contact-link event-register-button">Register</a>
                                     	<ul class="action-buttons">
                                         	<li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
                                         	<li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
@@ -178,7 +178,7 @@
                                         </div>
                                     </div>
                                     <div class="event-list-item-actions">
-                                    	<a href="#" class="btn btn-default btn-transparent event-tickets event-register-button">Register</a>
+                                    	<a data-toggle="modal" data-target="#Econtact" class="btn btn-default btn-transparent event-contact-link event-register-button">Register</a>
                                     	<ul class="action-buttons">
                                         	<li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
                                         	<li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
@@ -206,7 +206,7 @@
                                         </div>
                                     </div>
                                     <div class="event-list-item-actions">
-                                    	<a href="#" class="btn btn-default btn-transparent event-tickets event-register-button">Register</a>
+                                    	<a data-toggle="modal" data-target="#Econtact" class="btn btn-default btn-transparent event-contact-link event-register-button">Register</a>
                                     	<ul class="action-buttons">
                                         	<li title="Share event"><a href="#" data-trigger="focus" data-placement="top" data-content="" data-toggle="popover" data-original-title="Share Event" class="event-share-link"><i class="icon-share"></i></a></li>
                                         	<li title="Get directions" class="hidden-xs"><a href="#" class="cover-overlay-trigger event-direction-link"><i class="icon-compass"></i></a></li>
@@ -244,13 +244,15 @@
                         <h4>News subscription</h4>
                         <hr class="sm">
                         <p>Subscribe to our newsletter in order to receive the latest new &amp; articles. We promise we won't spam your inbox!</p>
-                        <div class="input-group">
-                            <span class="input-group-addon">@</span>
-                            <input type="text" class="form-control">
-                            <span class="input-group-btn">
-                            <button class="btn btn-primary" type="button">Go!</button>
-                            </span>
-                        </div>
+                        <form data-netlify="true">
+                            <div class="input-group">
+                                <span class="input-group-addon">@</span>
+                                <input type="text" class="form-control" required>
+                                <span class="input-group-btn">
+                                <input type="submit" value="Go!" class="btn btn-primary" >
+                                </span>
+                            </div>
+                                                </form>
             		</div>
                	</div>
         		<!-- Quick Info -->
@@ -266,7 +268,7 @@
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-envelope"></i> Contact Info</h4>
-                            <p>+1 (647) 781-4151<br>davidsdominionchristiancenter@gmail.com</p>
+                            <p>+1 (647) 781-4151<br>ddchristiancentre@gmail.com</p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <h4><i class="fa fa-clock-o"></i> Socialize with us</h4>
@@ -355,65 +357,16 @@
   </div>
 </div>
 <!-- Event Register Tickets -->
-<div class="ticket-booking-wrapper">
-    <a href="#" class="ticket-booking-close label-danger"><i class="icon icon-delete"></i></a>
-    <div class="ticket-booking">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3><strong>Book your</strong> <span>tickets</span></h3>
-                </div>
-                <div class="col-md-9">
-                    <div class="event-ticket ticket-form">
-                        <div class="event-ticket-left">
-                            <div class="ticket-handle"></div>
-                            <div class="ticket-cuts ticket-cuts-top"></div>
-                            <div class="ticket-cuts ticket-cuts-bottom"></div>
-                        </div>
-                        <div class="event-ticket-right">
-                            <div class="event-ticket-right-inner">
-                                <div class="row">
-                                    <div class="col-md-9 col-sm-9">
-                                        <span class="meta-data">Your ticket for</span>
-                                        <h4 id="dy-event-title"></h4>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3">
-                                        <span class="meta-data">Tickets count</span>
-                                        <select class="form-control input-sm">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="event-ticket-info">
-                                    <div class="row">
-                                        <div class="col">
-                                            <p class="ticket-col" id="dy-event-date"></p>
-                                        </div>
-                                        <div class="col">
-                                            <a href="#" class="btn btn-warning btn btn-block ticket-col">Book</a>
-                                        </div>
-                                        <div class="col">
-                                            <p id="dy-event-time">Starts </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="event-location" id="dy-event-location"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   	</div>
-</div>
+
+<script>
+    var displayMonth = document.querySelector('.month');
+    const monthArray = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    let date = new Date();
+    let index = date.getMonth();
+     displayMonth.textContent = monthArray[index] ;
+   
+
+</script>
 <script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call -->
 <script src="vendor/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin -->
 <script src="js/helper-plugins.js"></script> <!-- Helper Plugins -->

@@ -27,7 +27,6 @@
 .x {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -70,7 +69,6 @@
 .xOne {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -113,7 +111,6 @@
 .xTwo {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -156,7 +153,6 @@
 .xThree {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -197,7 +193,6 @@
 .xFour {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -239,7 +234,6 @@
 .xFive {
 	float: right;
 	font-size: 2.3em;
-	font-family: cursive;
 	padding: 20px 20px 20px 20px;
 	cursor: pointer;
 
@@ -249,4 +243,18 @@
 	font-size: 1.3em;
 	text-align: center;
 	padding: 0 10% 10px 10%;
+}
+
+@media screen and (max-width: 400px) {
+
+	.contai,
+	.contaiOne,
+	.contaiTwo,
+	.contaiThree,
+	.contaiFour,
+	.contaiFive {
+		width: 90%;
+		font-size: 0.8em;
+	}
+
 }
